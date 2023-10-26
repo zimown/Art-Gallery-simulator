@@ -1,0 +1,104 @@
+
+.arrow {
+    margin: auto;
+    width: 100px;
+    height: 180px;    
+    background: url('../img/arrow.png') no-repeat center;
+    background-size: contain;
+    opacity: 0.8;
+}
+
+.arrow:hover {
+    opacity: 1;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.arrow h2 {
+    width: 180px;
+    padding-right: 50px;
+    position: fixed;
+    display: inline;
+}
+
+.arrowL, .arrowH {
+    transform: rotate(-90deg);
+}
+
+.arrowL h2, .arrowH h2 {
+    transform: rotate(90deg);
+    margin: 175px 0 0 -65px;
+}
+
+.arrowR, .arrowE {
+    transform: rotate(90deg);
+}
+
+.arrowR h2, .arrowE h2 {
+    transform: rotate(-90deg);
+    margin: 20px 0 0 -65px;
+}
+
+.arrowH, .arrowE {
+    color: white;
+    background-image: url('../img/road-sign-small.png');
+    width: 80px;
+    height: 320px;
+    font-size: 30px;
+}
+
+.arrowH {
+    position: fixed;
+    left: 200px;
+    top: -80px;
+}
+
+.arrowE h2 {
+    width: 320px;
+    margin: 40px 0 0 -145px;
+}
+
+.arrowH h2 {
+    margin: 190px 0 0 -75px;
+}
+
+.arrowB, .arrowA, .arrowN, .arrowP, .arrowG {
+    display: none;
+    opacity: 0.4;
+    position: fixed;
+    bottom: 40%;
+    background-image: url('../img/arrow-thin.png');
+    height: 50px;
+    width: 30px;
+    margin-left: 190px;
+    transform: rotate(90deg);
+}
+
+.arrowA {
+    bottom: 43%;
+    width: 20px;
+    margin-left: 195px;
+}
+
+.arrowN, .arrowP {
+    bottom: 48%;
+    height: 30px;
+}
+
+.arrowN {
+    transform: rotate(0deg);
+    margin-left: 265px;
+}
+
+.arrowP {
+    transform: rotate(180deg);
+    margin-left: -70px;
+}
+
+.arrowG {
+    background-color: rgba(255, 255, 255, 0.603);
+    border-radius: 2px;
+    padding: 2px;
+    margin-left: 140px;
+    bottom: 19%;
+}
